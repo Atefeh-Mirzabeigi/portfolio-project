@@ -6,16 +6,13 @@
   --secondary-font-family: "Poppins", sans-serif;
 }
 body {
-  margin: 2rem auto;
-  max-width: 800px;
-  background: var(--secondary-color);
+  margin: 0 auto;
 }
 h1,
 h2,
 h3 {
   text-align: center;
   margin-bottom: 0;
-  margin-top: 10rem;
 }
 h1 {
   font-size: 90px;
@@ -35,6 +32,10 @@ p {
   font-family: var(--main-font-family);
   font-weight: bold;
 }
+.heading {
+  background-color: var(--secondary-color);
+  padding: 6rem;
+}
 .contact-link {
   background: var(--primary-color);
   color: white;
@@ -47,4 +48,24 @@ p {
 
 .link {
   text-align: center;
+}
+@media (max-width: 579px) {
+  h1 {
+    font-size: 60px;
+  }
+  h2 {
+    font-size: 30px;
+  }
+  h3 {
+    font-size: 25px;
+  }
+  .app-image {
+    display: none;
+  }
+  .app-info {
+    text-align: center;
+  }
+  .app-link {
+    margin: 0 2rem;
+  }
 }
