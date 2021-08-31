@@ -76,16 +76,25 @@ p {
 .app-info {
   padding: 4rem;
 }
-.about-section {
-  margin: 10rem 6rem;
+.main-section {
+  margin: 10rem 5rem;
 }
-.about-section-content h1 {
+.main-section-content h1 {
   font-size: 64px;
   font-weight: bold;
 }
-.about-section-content h2 {
+.main-section-content h2 {
   font-size: 20px;
   font-weight: bold;
+}
+.main-section-content h3 {
+  font-size: 30px;
+  font-weight: bold;
+}
+.main-section-content p {
+  font-size: 15px;
+  opacity: 70%;
+  line-height: 2;
 }
 .about-section-image {
   border-radius: 20px;
@@ -93,9 +102,12 @@ p {
   box-shadow: 3px 5px 5px rgba(112, 112, 112, 0.3);
   margin-top: 3rem;
 }
+.work-img {
+  width: 30.5rem;
+}
 @media (max-width: 579px) {
   h1,
-  .about-section-content h1 {
+  .main-section-content h1 {
     font-size: 50px;
   }
   h2 {
@@ -107,7 +119,7 @@ p {
   .heading {
     padding: 4rem 2rem;
   }
-  .about-section {
+  .main-section {
     padding: 1rem;
     margin: 1rem;
     text-align: center;
