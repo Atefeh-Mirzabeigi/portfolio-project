@@ -24,6 +24,30 @@ h1 {
 p {
   font-weight: 500;
 }
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+nav li {
+  display: inline;
+  line-height: 42px;
+}
+nav a {
+  text-decoration: none;
+  color: black;
+  opacity: 80%;
+  font-size: 15px;
+  margin-left: 0.5rem;
+}
+nav .active a {
+  color: var(--primary-color);
+}
+nav a:hover {
+  color: var(--primary-color);
+}
+nav img {
+  max-height: 40px;
+}
 .greeting {
   font-size: 35px;
   font-family: var(--secondary-font-family);
