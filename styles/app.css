@@ -45,6 +45,7 @@ nav .active a {
 }
 nav a:hover {
   color: var(--primary-color);
+  transition: all 100ms ease-in-out;
 }
 nav img {
   max-height: 40px;
@@ -129,6 +130,48 @@ nav img {
 }
 .work-img {
   width: 30.5rem;
+}
+footer a {
+  text-decoration: none;
+}
+footer {
+  margin: 6rem 0;
+}
+footer .contact-box {
+  padding: 2rem 8rem;
+  margin: 1rem;
+  background: var(--secondary-color);
+  border-radius: 10px;
+}
+footer .contact-box p {
+  margin: 0;
+  opacity: 70%;
+  font-size: 18px;
+}
+footer .contact-box h2 {
+  font-family: var(--main-font-family);
+  font-size: 48px;
+}
+footer .email-link {
+  color: black;
+  font-size: 24px;
+  font-weight: 500;
+}
+footer .email-link:hover {
+  color: var(--primary-color);
+}
+footer .social-media a {
+  color: var(--primary-color);
+  background-color: var(--secondary-color);
+  padding: 0.5rem 1rem;
+  border-radius: 50px;
+  margin: 0 1rem;
+  font-size: 24px;
+}
+footer .social-media a:hover {
+  color: var(--secondary-color);
+  background: var(--primary-color);
+  transition: all 100ms ease-in-out;
 }
 @media (max-width: 579px) {
   h1,
