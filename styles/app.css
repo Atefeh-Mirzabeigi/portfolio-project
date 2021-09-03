@@ -67,7 +67,7 @@ nav img {
 }
 .heading {
   background-color: var(--secondary-color);
-  padding: 10rem 6rem;
+  padding: 6rem;
   text-align: center;
 }
 .contact-link {
@@ -103,7 +103,7 @@ nav img {
   padding: 4rem;
 }
 .main-section {
-  margin: 10rem 5rem;
+  margin: 6rem;
 }
 .main-section-content h1 {
   font-size: 64px;
